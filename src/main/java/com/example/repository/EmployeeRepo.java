@@ -1,4 +1,5 @@
 package com.example.repository;
 
-public class EmployeeRepo {
+public interface EmployeeRepo {
+    public String getName(String name);
 }
